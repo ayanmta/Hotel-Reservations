@@ -21,6 +21,12 @@ const RoomProvider = ({ children }) => {
     });
   }, []);
 
+  const getRoom = (slug) => {
+    let tempRooms = userValue.rooms;
+    const room = tempRooms.find((room) => room.slug === slug);
+    return room;
+  };
+
   const formatData = (items) => {
     let tempItems = items.map((item) => {
       let id = item.sys.id;
@@ -32,7 +38,7 @@ const RoomProvider = ({ children }) => {
   };
 
   return (
-    <RoomContext.Provider value={{ ...userValue }}>
+    <RoomContext.Provider value={{ ...userValue, getRoom: getRoom }}>
       {children}
     </RoomContext.Provider>
   );
