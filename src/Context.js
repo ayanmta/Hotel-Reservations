@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import items from "./data";
+import properties from "./propertyData";
 
 export const RoomContext = React.createContext();
 
@@ -8,16 +9,20 @@ const RoomProvider = ({ children }) => {
     rooms: [],
     sortedRooms: [],
     featuredRooms: [],
+    propertyData: [],
     loading: true,
   });
+
   useEffect(() => {
-    let rooms = formatData(items);
+    let rooms = formatData(items, properties).tempItems;
+    let propertyData = formatData(items, properties).property;
     let featuredRooms = rooms.filter((room) => room.featured === true);
     setUserValue({
       rooms,
       sortedRooms: rooms,
       featuredRooms,
       loading: false,
+      propertyData,
     });
   }, []);
 
@@ -27,14 +32,20 @@ const RoomProvider = ({ children }) => {
     return room;
   };
 
-  const formatData = (items) => {
+  const formatData = (items, properties) => {
     let tempItems = items.map((item) => {
       let id = item.sys.id;
       let images = item.fields.images.map((image) => image.fields.file.url);
       let room = { ...item.fields, id, images };
       return room;
     });
-    return tempItems;
+    let property = properties.map((pro) => {
+      let id = pro.sys.id;
+      let images = pro.fields.images.map((image) => image.fields.file.url);
+      let prop = { ...pro.fields, id, images };
+      return prop;
+    });
+    return { tempItems, property };
   };
 
   return (

@@ -1,9 +1,6 @@
 import React from "react";
 
-export default function Hero({ children, hero }) {
-  return <div className={hero}>{children}</div>;
+export default function Hero({ marketing, children }) {
+  const herocomponent = marketing ? "defaultMarket" : "defaultHero";
+  return <div className={herocomponent}>{children}</div>;
 }
-
-Hero.defaultProps = {
-  hero: "defaultHero",
-};

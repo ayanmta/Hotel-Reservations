@@ -169,6 +169,14 @@ h6 {
   background-image: url("./images/room-2.jpeg");
   min-height: 60vh;
 }
+.defaultMarket,
+.roomsHero {
+  min-height: calc(100vh - 66px);
+  background: url("./images/homepage_banner_1.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* End of Hero */
 /* Banner */
 .banner {

@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import defaultImg from "../images/room-1.jpeg";
 
-function Room({ value }) {
+function Room({ value, property }) {
   const { name, slug, images, price } = value;
+  console.log(property, "imagesss");
   return (
     <article className="room">
       <div className="img-container">
@@ -13,8 +14,11 @@ function Room({ value }) {
           <h6>${price}</h6>
           <p>per night</p>
         </div>
-        <Link to={`/rooms/${slug}`} className="btn-primary room-link">
-          Features
+        <Link
+          to={property ? `/property` : `/rooms/${slug}`}
+          className="btn-primary room-link"
+        >
+          {property ? "Explore" : "Features"}
         </Link>
       </div>
       <p className="room-info">{name}</p>
