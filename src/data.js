@@ -1,15 +1,19 @@
-import room1 from "./images/details-1.jpeg";
-import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
-import room4 from "./images/details-4.jpeg";
+import room2 from "./images/room-2.jpeg";
+import room2Detail1 from "./images/room-2-detail-1.jpeg";
+import room2Detail2 from "./images/room-1-detail-2.jpeg";
+import room2Detail3 from "./images/ottoman_bathroom.jpeg.jpeg";
+
+import room1detail from "./images/room-1-detail-1.jpeg";
+import room3 from "./images/room-1-detail-2.jpeg";
+import room4 from "./images/ottoman_bathroom.jpeg.jpeg";
 import img1 from "./images/room-1.jpeg";
-import img2 from "./images/room-2.jpeg";
-import img3 from "./images/room-3.jpeg";
-import img4 from "./images/room-4.jpeg";
-import img5 from "./images/room-5.jpeg";
-import img6 from "./images/room-6.jpeg";
-import img7 from "./images/room-7.jpeg";
-import img8 from "./images/room-8.jpeg";
+import img2 from "./images/room-1.jpeg";
+import img3 from "./images/room-1.jpeg";
+import img4 from "./images/room-1.jpeg";
+import img5 from "./images/room-2.jpeg";
+import img6 from "./images/room-2.jpeg";
+import img7 from "./images/room-2.jpeg";
+import img8 from "./images/room-1.jpeg";
 import img9 from "./images/room-9.jpeg";
 import img10 from "./images/room-10.jpeg";
 import img11 from "./images/room-11.jpeg";
@@ -52,7 +56,7 @@ export default [
         {
           fields: {
             file: {
-              url: room2,
+              url: room1detail,
             },
           },
         },
@@ -109,7 +113,7 @@ export default [
         {
           fields: {
             file: {
-              url: room2,
+              url: room1detail,
             },
           },
         },
@@ -138,7 +142,7 @@ export default [
       name: "single standard",
       slug: "single-standard",
       type: "single",
-      price: 250,
+      price: 2500,
       size: 300,
       capacity: 1,
       pets: true,
@@ -195,7 +199,7 @@ export default [
       name: "single deluxe",
       slug: "single-deluxe",
       type: "single",
-      price: 300,
+      price: 3000,
       size: 400,
       capacity: 1,
       pets: true,
@@ -254,7 +258,7 @@ export default [
       type: "double",
       price: 200,
       size: 300,
-      capacity: 2,
+      capacity: 3,
       pets: false,
       breakfast: false,
       featured: false,
@@ -309,9 +313,9 @@ export default [
       name: "double basic",
       slug: "double-basic",
       type: "double",
-      price: 250,
+      price: 2500,
       size: 350,
-      capacity: 2,
+      capacity: 3,
       pets: false,
       breakfast: false,
       featured: false,
@@ -366,9 +370,9 @@ export default [
       name: "double standard",
       slug: "double-standard",
       type: "double",
-      price: 300,
+      price: 3000,
       size: 400,
-      capacity: 2,
+      capacity: 3,
       pets: true,
       breakfast: false,
       featured: false,
@@ -423,9 +427,9 @@ export default [
       name: "double deluxe",
       slug: "double-deluxe",
       type: "double",
-      price: 400,
+      price: 3400,
       size: 500,
-      capacity: 2,
+      capacity: 3,
       pets: true,
       breakfast: true,
       featured: true,
@@ -594,7 +598,7 @@ export default [
       name: "family standard",
       slug: "family-standard",
       type: "family",
-      price: 400,
+      price: 3400,
       size: 600,
       capacity: 5,
       pets: true,
@@ -651,7 +655,7 @@ export default [
       name: "family deluxe",
       slug: "family-deluxe",
       type: "family",
-      price: 500,
+      price: 3500,
       size: 700,
       capacity: 6,
       pets: true,
@@ -672,7 +676,7 @@ export default [
         {
           fields: {
             file: {
-              url: img12,
+              url: img3,
             },
           },
         },
@@ -708,7 +712,7 @@ export default [
       name: "presidential",
       slug: "presidential-room",
       type: "presidential",
-      price: 600,
+      price: 3600,
       size: 1000,
       capacity: 10,
       pets: true,
@@ -729,13 +733,6 @@ export default [
         {
           fields: {
             file: {
-              url: room1,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
               url: room2,
             },
           },
@@ -743,14 +740,21 @@ export default [
         {
           fields: {
             file: {
-              url: room3,
+              url: room2Detail1,
             },
           },
         },
         {
           fields: {
             file: {
-              url: room4,
+              url: room2Detail2,
+            },
+          },
+        },
+        {
+          fields: {
+            file: {
+              url: room2Detail3,
             },
           },
         },

@@ -1,5 +1,5 @@
 import React, { Component, useContext } from "react";
-import defaultBcg from "../images/room-1.jpeg";
+import defaultBcg from "../images/defaultBcg.jpeg";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
@@ -49,7 +49,7 @@ const SingleRoom = (props) => {
           </article>
           <article className="info">
             <h3>Info</h3>
-            <h6>price: ${price}</h6>
+            <h6>price: ₹{price}</h6>
             <h6>size: {size} sqft</h6>
             <h6>
               max capacity:{" "}

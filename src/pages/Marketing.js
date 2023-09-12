@@ -33,7 +33,6 @@ const Marketing = () => {
           {loading ? <Loading /> : propertyData}
         </div>
       </section>
-      <Services />
     </>
   );
 };

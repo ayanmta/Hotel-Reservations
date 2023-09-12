@@ -15,8 +15,25 @@
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  margin-top: -5px;
+
 }
 /* globals */
+@media screen and (max-width: 1024px) {
+  :root {
+    --primaryColor: #af9a7d;
+    --mainWhite: #fff;
+    --offWhite: #f7f7f7;
+    --mainBlack: #222;
+    --mainGrey: #ececec;
+    --darkGrey: #cfcfcf;
+    --mainTransition: all 0.3s linear;
+    --mainSpacing: 3px;
+    --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    margin-top: -15px;
+  }
+}
 body {
   padding-top: 66px;
   color: var(--mainBlack);
@@ -87,6 +104,16 @@ h6 {
   padding: 1rem;
   letter-spacing: var(--mainSpacing);
 }
+@media screen and (max-width: 1024px) {
+  .shilabagh{
+  display: none;
+  }
+}
+.shilabagh{
+  width: 100%;
+  position: fixed;
+  margin-top: -10px;
+}
 /* end of globals */
 /* Navbar */
 .navbar {
@@ -95,7 +122,7 @@ h6 {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: var(--offWhite);
+  background: #cfcfcf;
   z-index: 1;
 }
 .nav-header {
@@ -160,7 +187,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./images/ottoman_property_1.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,7 +199,7 @@ h6 {
 .defaultMarket,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/homepage_banner_1.jpeg") center/cover no-repeat;
+  background: url("./images/homepage_banner_1.jpeg.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

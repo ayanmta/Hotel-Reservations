@@ -11,11 +11,11 @@ function Room({ value, property }) {
       <div className="img-container">
         <img src={images[0] || defaultImg} alt="room img" />
         <div className="price-top">
-          <h6>${price}</h6>
+          <h6>₹{price}</h6>
           <p>per night</p>
         </div>
         <Link
-          to={property ? `/property` : `/rooms/${slug}`}
+          to={property ? `/property/${slug}` : `/rooms/${slug}`}
           className="btn-primary room-link"
         >
           {property ? "Explore" : "Features"}

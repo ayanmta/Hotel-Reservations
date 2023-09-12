@@ -1,4 +1,4 @@
-import room1 from "./images/details-1.jpeg";
+import room1 from "./images/ottoman_property.jpeg";
 import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
 export default [
@@ -7,10 +7,10 @@ export default [
       id: "1",
     },
     fields: {
-      name: "Ottoman",
+      name: "OTTOMAN",
       slug: "ottoman",
       type: "property",
-      price: 250,
+      price: 2500,
       size: 350,
       capacity: 2,
       pets: false,
