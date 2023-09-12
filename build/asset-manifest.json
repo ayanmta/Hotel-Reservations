@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7034e0b7.css",
+    "main.js": "/static/js/main.5818e5ab.js",
+    "static/media/ottoman_property.jpeg": "/static/media/ottoman_property.77ca6413fecb10471eb8.jpeg",
+    "static/media/ottoman_property_1.jpeg": "/static/media/ottoman_property_1.dad9f5ab718f62e3e214.jpeg",
+    "static/media/room-1.jpeg": "/static/media/room-1.e1adaf642aaac5e39bbe.jpeg",
+    "static/media/room-1-detail-2.jpeg": "/static/media/room-1-detail-2.1539514fac8df3c6bdf4.jpeg",
+    "static/media/room-1-detail-1.jpeg": "/static/media/room-1-detail-1.e6a8a00ac628bb46b355.jpeg",
+    "static/media/ottoman_bathroom.jpeg.jpeg": "/static/media/ottoman_bathroom.jpeg.5f73e6a5469f41a19239.jpeg",
+    "static/media/room-9.jpeg": "/static/media/room-9.18aabe9f1ed70f66b8e6.jpeg",
+    "static/media/room-2-detail-1.jpeg": "/static/media/room-2-detail-1.63cf5b2d4030b1dea154.jpeg",
+    "static/media/room-2.jpeg": "/static/media/room-2.6156754dec92c10fe37e.jpeg",
+    "static/media/defaultBcg.jpeg": "/static/media/defaultBcg.0bb3fe0a8aacb2efaf85.jpeg",
+    "static/media/room-12.jpeg": "/static/media/room-12.7dee4920e87b72612002.jpeg",
+    "static/media/details-2.jpeg": "/static/media/details-2.dc89255d017962849975.jpeg",
+    "static/media/room-10.jpeg": "/static/media/room-10.681615dca97a45f14458.jpeg",
+    "static/media/room-11.jpeg": "/static/media/room-11.1605f19efd5584308ff6.jpeg",
+    "static/media/loading-arrow.gif": "/static/media/loading-arrow.dd29210f39418b50813e.gif",
+    "static/media/homepage_banner_1.jpeg.jpeg": "/static/media/homepage_banner_1.jpeg.94195039159473d78f3f.jpeg",
+    "static/media/details-3.jpeg": "/static/media/details-3.f525a3c8d6914f54085e.jpeg",
+    "static/media/logo.svg": "/static/media/logo.844223bc5668799841e14b8076920f97.svg",
+    "index.html": "/index.html",
+    "main.7034e0b7.css.map": "/static/css/main.7034e0b7.css.map",
+    "main.5818e5ab.js.map": "/static/js/main.5818e5ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7034e0b7.css",
+    "static/js/main.5818e5ab.js"
+  ]
+}
