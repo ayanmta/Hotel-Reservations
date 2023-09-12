@@ -1,7 +1,7 @@
 import room1 from "./images/ottoman_property.jpeg";
 import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
-export default [
+const propertyData = [
   {
     sys: {
       id: "1",
@@ -51,3 +51,5 @@ export default [
     },
   },
 ];
+
+export default propertyData;
