@@ -17,7 +17,6 @@ import img8 from "./images/room-1.jpeg";
 import img9 from "./images/room-9.jpeg";
 import img10 from "./images/room-10.jpeg";
 import img11 from "./images/room-11.jpeg";
-import img12 from "./images/room-12.jpeg";
 
 export default [
   {

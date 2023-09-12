@@ -1,10 +1,9 @@
-import React, { Component, useContext } from "react";
+import React, { useContext } from "react";
 import defaultBcg from "../images/defaultBcg.jpeg";
-import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import { RoomContext } from "../Context";
-import { useParams, useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import StyledHero from "./StyledHero";
 
 const SingleRoom = (props) => {
@@ -39,7 +38,12 @@ const SingleRoom = (props) => {
       <section className="single-room">
         <div className="single-room-images">
           {defaultImg.map((item, index) => (
-            <img className="single-room-images" src={item} key={index} />
+            <img
+              className="single-room-images"
+              alt="single-room"
+              src={item}
+              key={index}
+            />
           ))}
         </div>
         <div className="single-room-info">
