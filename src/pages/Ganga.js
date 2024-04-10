@@ -16,6 +16,8 @@ import room_b1 from "../images/gp-bath1.jpg";
 
 import room_b2 from "../images/gp-bath2.jpg";
 import ReactImageGallery from 'react-image-gallery'
+import { FaMapLocationDot } from "react-icons/fa6";
+
 
 const Ganga = () => {
     const images = [
@@ -66,7 +68,7 @@ const Ganga = () => {
       
        
         <ReactImageGallery  items={images} />
-        <div className="single-room-info">
+       <div className="single-room-info"> 
           <article className="desc">
             <h3>Description</h3>
             <p>Welcome to our hotel where cleanliness and hygiene are our top priorities. Experience immaculately maintained rooms that are not only spotless but also designed for your comfort. Enjoy breathtaking views from your window that will enhance your stay with us.</p>
@@ -82,8 +84,11 @@ const Ganga = () => {
         </div>
       </section>
       <section className="room-extras">
-        <h3>Extras</h3>
-        
+        <h3>Get Directions:</h3>
+       <a href="https://www.google.co.uk/maps/place/Hotel+Ganga+Palace/@25.2967126,57.837985,4z/data=!4m13!1m2!2m1!1sganga+palace!3m9!1s0x3905790505d91c85:0xde0d2c9a6c77476e!5m2!4m1!1i2!8m2!3d31.108476!4d77.1393356!15sCgxnYW5nYSBwYWxhY2WSAQVob3RlbOABAA!16s%2Fg%2F11c3k6l8fs?entry=ttu" className="btn-primary">
+        open google Maps
+        </a>
+        <h1><FaMapLocationDot/> </h1>
       </section>  
       
   

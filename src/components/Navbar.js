@@ -40,13 +40,13 @@ if(menuRef.current && !menuRef.current.contains(e.target)){
           </li>
           <span className="specialNav">
           <li onClick={handleMenuItemClick}>
-            <Link to="/rooms/double-deluxe">Deluxe Room (ottoman)</Link>
+            <Link to="/rooms/double-deluxe">Deluxe Room <span style={{fontWeight:"lighter"}}>(Ottoman)</span></Link>
           </li>
           <li onClick={handleMenuItemClick}>
-            <Link to="/rooms/family-deluxe">Family Deluxe Room (ottoman)</Link>
+            <Link to="/rooms/family-deluxe">Family Deluxe Room <span style={{fontWeight:"lighter"}}>(Ottoman)</span> </Link>
           </li>
           <li onClick={handleMenuItemClick}>
-            <Link to="/rooms/presidential-room">presedential Room (ottoman)</Link>
+            <Link to="/rooms/presidential-room">Presedential Room <span style={{fontWeight:"lighter"}}>(Ottoman)</span></Link>
           </li>
           </span>
           </li>

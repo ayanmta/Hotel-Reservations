@@ -32,7 +32,7 @@ function App() {
       </Routes>
           <p>*prices may vary , please contact owner for more info</p>
      <a
-        href={`https://wa.me/9816930002/?text=Hi ,I am looking to book a stay at Shillabagh.`}
+        href={`https://wa.me/9816930002/?text=Hi, I am looking to book a stay at Shillabagh.`}
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
