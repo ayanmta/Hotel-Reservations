@@ -15,6 +15,11 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 
 function App() {
+  console.log(window.location.pathname,"what is the place")
+  let location
+  if(window !== undefined){
+location=window.location.pathname
+  }
   return (
     <div>
       <span className="shilabagh">
@@ -32,7 +37,8 @@ function App() {
       </Routes>
           <p>*prices may vary , please contact owner for more info</p>
      <a
-        href={`https://wa.me/9816930002/?text=Hi, I am looking to book a stay at Shillabagh.`}
+        href={`https://wa.me/9816930002/?text=Hi, I am looking to book a stay at Shillabagh. 
+        at page-${location}`}
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
