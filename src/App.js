@@ -37,8 +37,7 @@ location=window.location.pathname
       </Routes>
           <p>*prices may vary , please contact owner for more info</p>
      <a
-        href={`https://wa.me/9816930002/?text=Hi, I am looking to book a stay at Shillabagh. 
-        at page-${location}`}
+        href={`https://wa.me/9816930002/?text=Hi, I am looking to book a stay at Shillabagh.`}
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
