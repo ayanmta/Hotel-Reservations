@@ -30,10 +30,8 @@ const SingleRoom = (props) => {
     <>
       <StyledHero hero="roomsHero" img={mainImg || defaultBcg}>
         <Banner title={`${name} room`}>
-          <Link to="/rooms" className="btn btn-primary">
-            Back to Room
-          </Link>
-        </Banner>
+        Offering clean and Hygenic space 
+                </Banner>
       </StyledHero>
       <section className="single-room">
         <div className="single-room-images">

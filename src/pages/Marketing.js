@@ -18,15 +18,22 @@ const Marketing = () => {
     <>
       <Hero marketing={true}>
         <Banner
-          title="Our Properties"
+          title="The Shilla Bagh Properties"
           subtitle="Offering Best Mountain escapes"
         ></Banner>
       </Hero>
       <section className="featured-rooms">
+      <div className="single-room-info">
+          <article className="desc">
+            <h3>Explore our properties:</h3>
+          </article>
+          </div>
+
         <div className="featured-rooms-center">
           {loading ? <Loading /> : propertyData}
         </div>
       </section>
+      
     </>
   );
 };

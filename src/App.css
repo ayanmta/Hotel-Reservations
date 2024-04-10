@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 
 * {
   margin: 0;
@@ -70,7 +72,45 @@ h6 {
   font-weight: bold;
   margin-bottom: 1.5em;
 }
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 60px;
+  place-content: "contact";
+  border-radius: 50px;
+  text-align: center;
+  font-size: 70px;
+  box-shadow: 4px 4px 6px #999;
+  z-index: 100;
+  transition: var(--mainTransition);
 
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 10px;
+  }
+  
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .specialNav{
+    display: none;
+  }}
 .btn-primary {
   display: inline-block;
   text-decoration: none;
@@ -129,6 +169,14 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+.small-logo {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .small-logo {
+    display: block;
+  }
+}
 .nav-btn {
   background: transparent;
   border: none;
@@ -161,7 +209,7 @@ h6 {
 }
 
 .show-nav {
-  height: 100px;
+  height: auto;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {

@@ -7,9 +7,9 @@ function Room({ value, property }) {
   const { name, slug, images, price } = value;
   console.log(property, "imagesss");
   return (
-    <article className="room">
-      <div className="img-container">
-        <img src={images[0] || defaultImg} alt="room img" />
+    <article  className="room">
+      <div style={{maxHeight:"600px",objectFit:"fill"}} className="img-container">
+        <img height={10} width={10} style={{maxHeight:"600px",objectFit:"fill"}}  src={images[0] || defaultImg} alt="room img" />
         <div className="price-top">
           <h6>₹{price}</h6>
           <p>per night</p>

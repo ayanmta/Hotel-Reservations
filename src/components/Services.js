@@ -6,23 +6,23 @@ const Services = () => {
   const [Services] = useState([
     {
       icon: <FaCocktail />,
-      title: "Free Cocktails",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?",
+      title: "Tasty Food",
+      info: "offering delicious and hygenic food as per your requirement",
     },
     {
       icon: <FaHiking />,
       title: "Endless Hiking",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?",
+      info: "located near beautiful hikes and trails",
     },
     {
       icon: <FaShuttleVan />,
-      title: "Free Shuttle",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?",
+      title: "Shuttles",
+      info: "frequent buses and shuttles are available to mall road",
     },
     {
       icon: <FaBeer />,
       title: "Strongest Beer",
-      info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?",
+      info: "",
     },
   ]);
   return (

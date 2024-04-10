@@ -4,12 +4,16 @@ import App from "./App";
 
 import { BrowserRouter as Router } from "react-router-dom";
 import RoomProvider from "./Context";
+import { ChakraProvider } from '@chakra-ui/react'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  <ChakraProvider>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <RoomProvider>
     <Router>
       <App />
     </Router>
   </RoomProvider>
+  </ChakraProvider>
 );
