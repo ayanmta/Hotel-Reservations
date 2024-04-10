@@ -1,9 +1,7 @@
 import React from 'react'
-import FeaturedRooms from '../components/FeaturedRooms'
-import Services from '../components/Services'
+
 import Banner from '../components/Banner'
-import { Link } from 'react-router-dom'
-import Hero from '../components/Hero'
+
 import StyledHero from './StyledHero'
 import room_g1 from "../images/gp-room1.jpg";
 import room_g2 from "../images/gp-room2.jpg";
@@ -17,7 +15,6 @@ import room_g6 from "../images/gp-room6.jpg";
 import room_b1 from "../images/gp-bath1.jpg";
 
 import room_b2 from "../images/gp-bath2.jpg";
-import { Button, Card, CardBody, CardFooter, CardHeader, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import ReactImageGallery from 'react-image-gallery'
 
 const Ganga = () => {

@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import defaultBcg from "../images/defaultBcg.jpeg";
 import Banner from "../components/Banner";
-import { Link } from "react-router-dom";
 import { RoomContext } from "../Context";
 import { useParams } from "react-router-dom";
 import StyledHero from "./StyledHero";
