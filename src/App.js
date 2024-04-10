@@ -15,11 +15,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 
 function App() {
-  console.log(window.location.pathname,"what is the place")
-  let location
-  if(window !== undefined){
-location=window.location.pathname
-  }
+ 
   return (
     <div>
       <span className="shilabagh">
