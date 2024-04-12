@@ -76,7 +76,7 @@ const Ganga = () => {
           </article>
           <article className="info">
             <h3>Info</h3>
-            <h6> <img src={veg} width={"5%"} height={"0.8rem"}/> "pure Veg" </h6>
+            <h6> <img alt="veg" src={veg} width={"5%"} height={"0.8rem"}/> "pure Veg" </h6>
             <h6> "no pets allowed" </h6>
             <h6>"breakfaast included"</h6>
           </article>
