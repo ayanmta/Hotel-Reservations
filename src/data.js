@@ -141,7 +141,7 @@ const data = [
       name: "single standard",
       slug: "single-standard",
       type: "single",
-      price: 2500,
+      price: 2000,
       size: 300,
       capacity: 1,
       pets: true,
@@ -198,7 +198,7 @@ const data = [
       name: "single deluxe",
       slug: "single-deluxe",
       type: "single",
-      price: 3000,
+      price: 2000,
       size: 400,
       capacity: 1,
       pets: true,
@@ -312,7 +312,7 @@ const data = [
       name: "double basic",
       slug: "double-basic",
       type: "double",
-      price: 2500,
+      price: 2000,
       size: 350,
       capacity: 3,
       pets: false,
@@ -369,7 +369,7 @@ const data = [
       name: "double standard",
       slug: "double-standard",
       type: "double",
-      price: 3000,
+      price: 2000,
       size: 400,
       capacity: 3,
       pets: true,
@@ -426,10 +426,9 @@ const data = [
       name: "double deluxe",
       slug: "double-deluxe",
       type: "double",
-      price: 3400,
       size: 500,
       capacity: 3,
-      pets: true,
+      pets: false,
       breakfast: true,
       featured: true,
       description:
@@ -448,13 +447,6 @@ const data = [
           fields: {
             file: {
               url: img8,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
             },
           },
         },
@@ -597,7 +589,7 @@ const data = [
       name: "family standard",
       slug: "family-standard",
       type: "family",
-      price: 3400,
+      price: 2000,
       size: 600,
       capacity: 5,
       pets: true,
@@ -648,70 +640,12 @@ const data = [
   },
   {
     sys: {
-      id: "12",
-    },
-    fields: {
-      name: "family deluxe",
-      slug: "family-deluxe",
-      type: "family",
-      price: 3500,
-      size: 700,
-      capacity: 6,
-      pets: true,
-      breakfast: true,
-      featured: true,
-      description:
-      "Indulge in our immaculate rooms, where cleanliness meets luxury. Experience comfort and serenity in every corner.",
-       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds",
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room2,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room3,
-            },
-          },
-        },
-        {
-          fields: {
-            file: {
-              url: room4,
-            },
-          },
-        },
-      ],
-    },
-  },
-  {
-    sys: {
       id: "13",
     },
     fields: {
       name: "presidential",
       slug: "presidential-room",
       type: "presidential",
-      price: 3600,
       size: 1000,
       capacity: 10,
       pets: true,

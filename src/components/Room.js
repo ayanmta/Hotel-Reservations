@@ -10,10 +10,7 @@ function Room({ value, property }) {
     <article  className="room">
       <div style={{maxHeight:"600px",objectFit:"fill"}} className="img-container">
         <img height={10} width={10} style={{maxHeight:"600px",objectFit:"fill"}}  src={images[0] || defaultImg} alt="room img" />
-        <div className="price-top">
-          <h6>₹{price}</h6>
-          <p>per night</p>
-        </div>
+       
         <Link
           to={property ? `/property/${slug}` : `/rooms/${slug}`}
           className="btn-primary room-link"

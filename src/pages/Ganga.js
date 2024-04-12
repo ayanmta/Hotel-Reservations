@@ -60,7 +60,7 @@ const Ganga = () => {
           
         <StyledHero hero="roomsHero" img={room_g4}>
         <Banner title={`Our rooms`}>
-         Offerting clean and Hygenic space 
+         Offering clean and Hygenic space 
         </Banner>
       </StyledHero>
       <section className="single-room">
@@ -75,9 +75,8 @@ const Ganga = () => {
           </article>
           <article className="info">
             <h3>Info</h3>
-            <h6>price: ₹3000</h6>
-           
-            <h6> "pets allowed" </h6>
+            <h6> "pure Veg" </h6>
+            <h6> "no pets allowed" </h6>
             <h6>"breakfaast included"</h6>
           </article>
           
@@ -88,7 +87,11 @@ const Ganga = () => {
        <a href="https://www.google.co.uk/maps/place/Hotel+Ganga+Palace/@25.2967126,57.837985,4z/data=!4m13!1m2!2m1!1sganga+palace!3m9!1s0x3905790505d91c85:0xde0d2c9a6c77476e!5m2!4m1!1i2!8m2!3d31.108476!4d77.1393356!15sCgxnYW5nYSBwYWxhY2WSAQVob3RlbOABAA!16s%2Fg%2F11c3k6l8fs?entry=ttu" className="btn-primary">
         open google Maps
         </a>
-        <h1><FaMapLocationDot/> </h1>
+        <h1 style={{marginTop:"3rem"}}><FaMapLocationDot/> </h1>
+        <h4>The ganga palace, <br></br> near summer hill chowk, summer hill, Shimla
+        <br></br><br></br>
+        Contact: <br></br> +91 98169 30002 <br></br> +91 72999 99115
+        </h4>
       </section>  
       
   

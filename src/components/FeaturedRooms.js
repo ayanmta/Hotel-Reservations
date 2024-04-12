@@ -18,7 +18,11 @@ const FeaturedRooms = (property) => {
        <a href="https://www.google.co.uk/maps/place/Ottoman+Homestay/@31.0928272,77.1917168,17z/data=!3m1!4b1!4m9!3m8!1s0x3905799bbdf605cb:0x97dbe37111a39484!5m2!4m1!1i2!8m2!3d31.0928226!4d77.1942917!16s%2Fg%2F11q3y6sjth?entry=ttu" className="btn-primary">
         open google Maps
         </a>
-        <h1><FaMapLocationDot/> </h1>
+        <h1 style={{marginTop:"3rem"}}> <FaMapLocationDot/> </h1>
+        <h4>Ottoman Homestay, <br></br>opposite SBI BANK SHANAN, malyana, shimla 
+        <br></br><br></br>
+        Contact: <br></br> +91 98169 30002 <br></br> +91 72999 99115
+        </h4>
       </section>  
     </section>
   );

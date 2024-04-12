@@ -76,7 +76,7 @@ h6 {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 40px;
+  bottom: 80px;
   right: 60px;
   place-content: "contact";
   border-radius: 50px;
@@ -102,7 +102,7 @@ h6 {
   .whatsapp_float {
       width: 40px;
       height: 40px;
-      bottom: 20px;
+      bottom: 50px;
       right: 10px;
       font-size: 42px;
   }

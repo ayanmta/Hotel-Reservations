@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Title from "./Title";
 import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
+import { MdNaturePeople } from "react-icons/md";
+
 
 const Services = () => {
   const [Services] = useState([
@@ -20,8 +22,8 @@ const Services = () => {
       info: "frequent buses and shuttles are available to mall road",
     },
     {
-      icon: <FaBeer />,
-      title: "Strongest Beer",
+      icon: <MdNaturePeople />,
+      title: "Great View",
       info: "",
     },
   ]);
