@@ -15,10 +15,8 @@ const SingleRoom = (props) => {
     description,
     capacity,
     size,
-    price,
     extras,
     breakfast,
-    pets,
     images,
   } = room;
   const [mainImg, ...defaultImg] = images;

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import defaultImg from "../images/room-1.jpeg";
 
 function Room({ value, property }) {
-  const { name, slug, images, price } = value;
+  const { name, slug, images } = value;
   console.log(property, "imagesss");
   return (
     <article  className="room">

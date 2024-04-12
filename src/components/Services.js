@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Title from "./Title";
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
+import { FaCocktail, FaHiking, FaShuttleVan } from "react-icons/fa";
 import { MdNaturePeople } from "react-icons/md";
 
 
