@@ -17,6 +17,7 @@ import room_b1 from "../images/gp-bath1.jpg";
 import room_b2 from "../images/gp-bath2.jpg";
 import ReactImageGallery from 'react-image-gallery'
 import { FaMapLocationDot } from "react-icons/fa6";
+import veg from "../images/pure-veg-icon-logo-symbol-260nw-2190482501.webp"
 
 
 const Ganga = () => {
@@ -75,7 +76,7 @@ const Ganga = () => {
           </article>
           <article className="info">
             <h3>Info</h3>
-            <h6> "pure Veg" </h6>
+            <h6> <img src={veg} width={"5%"} height={"0.8rem"}/> "pure Veg" </h6>
             <h6> "no pets allowed" </h6>
             <h6>"breakfaast included"</h6>
           </article>
