@@ -22,6 +22,7 @@ function App() {
         <img src={logo} alt="Beach Resort" />
       </span>
       <Navbar />
+
       <Routes>
         <Route exact path="/" element={<Marketing />} />
         <Route exact path="/property/ottoman" element={<Home />} />
@@ -31,17 +32,18 @@ function App() {
         <Route path="/rooms/:slug" element={<SingleRoom />} />
         <Route element={<Error />} />
       </Routes>
-          <p style={{marginBottom:"2rem"}}>*prices may vary , please contact owner for more info</p>
-    <span className="whatsapp_float">
-    <a
-        href={`https://wa.me/9816930002/?text=Hi, I am looking to book a stay at Shillabagh.`}
-        
-        target="_blank"
-        rel="noopener noreferrer"
-      ><IoLogoWhatsapp color="green" enableBackground={"white"}  />
-     
-    </a>
-    </span> 
+      <p style={{ marginBottom: "2rem" }}>
+        *prices may vary , please contact owner for more info
+      </p>
+      <span className="whatsapp_float">
+        <a
+          href={`https://wa.me/9816930002/?text=Hi, I am looking to book a stay at Shillabagh.`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IoLogoWhatsapp color="green" enableBackground={"white"} />
+        </a>
+      </span>
     </div>
   );
 }

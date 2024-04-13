@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter, BrowserRouter as Router } from "react-router-dom";
 import RoomProvider from "./Context";
 import { ChakraProvider } from '@chakra-ui/react'
 
@@ -11,9 +11,9 @@ root.render(
   <ChakraProvider>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <RoomProvider>
-    <Router>
+  <BrowserRouter>
       <App />
-    </Router>
+    </BrowserRouter>
   </RoomProvider>
   </ChakraProvider>
 );

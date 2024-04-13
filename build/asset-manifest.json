@@ -1,7 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7034e0b7.css",
-    "main.js": "/static/js/main.5818e5ab.js",
+    "main.css": "/static/css/main.444941c3.css",
+    "main.js": "/static/js/main.c7672afb.js",
+    "static/media/gp-bath2.jpg": "/static/media/gp-bath2.223e0e78a11d1c687551.jpg",
+    "static/media/gp-room3.jpg": "/static/media/gp-room3.1ded3a19e03f0a4fe567.jpg",
+    "static/media/gp-room2.jpg": "/static/media/gp-room2.67130e09d3d1927b1a2a.jpg",
+    "static/media/gp-bath1.jpg": "/static/media/gp-bath1.1ac71eb06809f8480c23.jpg",
+    "static/media/gp-room4.jpg": "/static/media/gp-room4.2602b97899ae9af8df7c.jpg",
+    "static/media/gp-room6.jpg": "/static/media/gp-room6.b5e1770d5b13d27c8c21.jpg",
+    "static/media/gp-room5.jpg": "/static/media/gp-room5.2c13f782ec0a93c04355.jpg",
+    "static/media/gp-room1.jpg": "/static/media/gp-room1.cbda4aae1e9f58d9778b.jpg",
     "static/media/ottoman_property.jpeg": "/static/media/ottoman_property.77ca6413fecb10471eb8.jpeg",
     "static/media/ottoman_property_1.jpeg": "/static/media/ottoman_property_1.dad9f5ab718f62e3e214.jpeg",
     "static/media/room-1.jpeg": "/static/media/room-1.e1adaf642aaac5e39bbe.jpeg",
@@ -12,7 +20,6 @@
     "static/media/room-2-detail-1.jpeg": "/static/media/room-2-detail-1.63cf5b2d4030b1dea154.jpeg",
     "static/media/room-2.jpeg": "/static/media/room-2.6156754dec92c10fe37e.jpeg",
     "static/media/defaultBcg.jpeg": "/static/media/defaultBcg.0bb3fe0a8aacb2efaf85.jpeg",
-    "static/media/room-12.jpeg": "/static/media/room-12.7dee4920e87b72612002.jpeg",
     "static/media/details-2.jpeg": "/static/media/details-2.dc89255d017962849975.jpeg",
     "static/media/room-10.jpeg": "/static/media/room-10.681615dca97a45f14458.jpeg",
     "static/media/room-11.jpeg": "/static/media/room-11.1605f19efd5584308ff6.jpeg",
@@ -20,12 +27,13 @@
     "static/media/homepage_banner_1.jpeg.jpeg": "/static/media/homepage_banner_1.jpeg.94195039159473d78f3f.jpeg",
     "static/media/details-3.jpeg": "/static/media/details-3.f525a3c8d6914f54085e.jpeg",
     "static/media/logo.svg": "/static/media/logo.844223bc5668799841e14b8076920f97.svg",
+    "static/media/pure-veg-icon-logo-symbol-260nw-2190482501.webp": "/static/media/pure-veg-icon-logo-symbol-260nw-2190482501.d5beaae5168e4fc43e13.webp",
     "index.html": "/index.html",
-    "main.7034e0b7.css.map": "/static/css/main.7034e0b7.css.map",
-    "main.5818e5ab.js.map": "/static/js/main.5818e5ab.js.map"
+    "main.444941c3.css.map": "/static/css/main.444941c3.css.map",
+    "main.c7672afb.js.map": "/static/js/main.c7672afb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7034e0b7.css",
-    "static/js/main.5818e5ab.js"
+    "static/css/main.444941c3.css",
+    "static/js/main.c7672afb.js"
   ]
 }

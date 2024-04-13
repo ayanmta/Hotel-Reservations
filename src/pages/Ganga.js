@@ -67,7 +67,6 @@ const Ganga = () => {
       <section className="single-room">
 
       
-      <iframe src="e0!3m2!1sen!2sin!4v1683496992200!5m2!1sen!2sin" width="600" height="450"  allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <ReactImageGallery  items={images} />
        <div className="single-room-info"> 
           <article className="desc">
@@ -88,7 +87,6 @@ const Ganga = () => {
        <a href="https://www.google.co.uk/maps/place/Hotel+Ganga+Palace/@25.2967126,57.837985,4z/data=!4m13!1m2!2m1!1sganga+palace!3m9!1s0x3905790505d91c85:0xde0d2c9a6c77476e!5m2!4m1!1i2!8m2!3d31.108476!4d77.1393356!15sCgxnYW5nYSBwYWxhY2WSAQVob3RlbOABAA!16s%2Fg%2F11c3k6l8fs?entry=ttu" className="btn-primary">
         open google Maps
         </a>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29550370.360577587!2d57.837985!3d25.2967126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3905790505d91c85%3A0xde0d2c9a6c77476e!2sHotel%20Ganga%20Palace!5e0!3m2!1sen!2sin!4v1712907906804!5m2!1sen!2sin" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <h1 style={{marginTop:"3rem"}}><FaMapLocationDot/> </h1>
         <h4>The Ganga Palace, <br></br> near summer hill chowk, summer hill, Shimla
         <br></br><br></br>
