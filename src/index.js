@@ -10,10 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ChakraProvider>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <RoomProvider>
-  <BrowserRouter>
+  <Router>
       <App />
-    </BrowserRouter>
-  </RoomProvider>
+    </Router>
   </ChakraProvider>
 );
