@@ -3,18 +3,27 @@ import React from 'react'
 import Banner from '../components/Banner'
 
 import StyledHero from './StyledHero'
-import room_g1 from "../images/gp-room1.jpg";
-import room_g2 from "../images/gp-room2.jpg";
-import room_g3 from "../images/gp-room3.jpg";
-import room_g4 from "../images/gp-room4.jpg";
+import room_g1 from "../images/gp-room1.webp";
+import room_g2 from "../images/gp-room2.webp";
+import room_g3 from "../images/gp-room3.webp";
+import room_g4 from "../images/gp-room4.webp";
 
-import room_g5 from "../images/gp-room5.jpg";
+import room_g7 from "../images/gp-room7.webp";
+import room_g8 from "../images/gp-room8.webp";
+import room_g9 from "../images/gp-room9.webp";
+import room_g10 from "../images/gp-room10.webp";
+import room_g11 from "../images/gp-room11.webp";
+import room_g12 from "../images/gp-room12.webp";
+import room_g13 from "../images/gp-room13.webp";
+import room_g14 from "../images/gp-room14.webp";
+import room_g15 from "../images/gp-room15.webp";
+import room_g5 from "../images/gp-room5.webp";
 
-import room_g6 from "../images/gp-room6.jpg";
+import room_g6 from "../images/gp-room6.webp";
 
-import room_b1 from "../images/gp-bath1.jpg";
+import room_b1 from "../images/gp-bath1.webp";
 
-import room_b2 from "../images/gp-bath2.jpg";
+import room_b2 from "../images/gp-bath2.webp";
 import ReactImageGallery from 'react-image-gallery'
 import { FaMapLocationDot } from "react-icons/fa6";
 import veg from "../images/pure-veg-icon-logo-symbol-260nw-2190482501.webp"
@@ -46,6 +55,48 @@ const Ganga = () => {
             original: room_g6,
             thumbnail: room_g6,
           },
+          {
+            original: room_g7,
+            thumbnail: room_g7,
+          },
+          {
+            original: room_g8,
+            thumbnail: room_g8,
+          },
+          {
+            original: room_g9,
+            thumbnail: room_g9,
+          },
+          {
+            original: room_g10,
+            thumbnail: room_g10,
+          }
+          ,
+          {
+            original: room_g11,
+            thumbnail: room_g11,
+          }
+          ,
+          {
+            original: room_g12,
+            thumbnail: room_g12,
+          }
+          ,
+          {
+            original: room_g13,
+            thumbnail: room_g13,
+          }
+          ,
+          {
+            original: room_g14,
+            thumbnail: room_g14,
+          }
+          ,
+          {
+            original: room_g15,
+            thumbnail: room_g15,
+          }
+          ,
           {
             original: room_b1,
             thumbnail: room_b1,

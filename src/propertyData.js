@@ -1,9 +1,9 @@
 import room1 from "./images/ottoman_property.jpeg";
 import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
-import room_g4 from "./images/gp-room4.jpg";
-import room_g2 from "./images/gp-room2.jpg";
-import room_g3 from "./images/gp-room3.jpg";
+import room_g4 from "./images/gp-room4.webp";
+import room_g2 from "./images/gp-room2.webp";
+import room_g3 from "./images/gp-room3.webp";
 const propertyData = [
   {
     sys: {
