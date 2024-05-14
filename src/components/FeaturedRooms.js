@@ -35,6 +35,7 @@ const FeaturedRooms = (property) => {
         </h4>
         <div style={{ padding: "5px", margin: "10px 0px" }}>
           <iframe
+          title="ottoman-map"
             width="100%"
             height="500"
             frameborder="0"
