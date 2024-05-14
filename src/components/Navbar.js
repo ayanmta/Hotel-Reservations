@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaAlignRight } from "react-icons/fa";
-import { Link, Navigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
