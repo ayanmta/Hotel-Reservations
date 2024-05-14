@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Banner from "../components/Banner";
 
@@ -29,6 +29,13 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import veg from "../images/pure-veg-icon-logo-symbol-260nw-2190482501.webp";
 
 const Ganga = () => {
+  useEffect(()=>
+    setTimeout(()=>window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    }),750)
+  ,[])
   const images = [
     {
       original: room_g2,

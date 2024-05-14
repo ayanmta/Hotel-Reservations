@@ -1,10 +1,17 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { RoomContext } from "../Context";
 import Loading from "./Loading";
 import Room from "./Room";
 import Title from "./Title";
 import { FaMapLocationDot } from "react-icons/fa6";
 const FeaturedRooms = (property) => {
+  useEffect(()=>
+  setTimeout(()=>window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+  }),500)
+,[])
   let { loading, featuredRooms: rooms } = useContext(RoomContext);
   rooms = rooms.map((room) => <Room key={room.id} value={room} />);
   return (
