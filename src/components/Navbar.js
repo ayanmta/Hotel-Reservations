@@ -15,6 +15,7 @@ if(menuRef.current && !menuRef.current.contains(e.target)){
   }
   const handleMenuItemClick = () => {
     setOpen(false);
+    window.location.reload()
     // Additional logic for menu item click
   };
   useEffect(() => {
