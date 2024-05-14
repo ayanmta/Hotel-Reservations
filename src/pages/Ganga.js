@@ -31,17 +31,15 @@ import veg from "../images/pure-veg-icon-logo-symbol-260nw-2190482501.webp";
 const Ganga = () => {
   const images = [
     {
-      original: room_g1,
+      original: room_g2,
       thumbnail: room_g2,
     },
+    
     {
       original: room_g3,
       thumbnail: room_g3,
     },
-    {
-      original: room_g2,
-      thumbnail: room_g2,
-    },
+    
     {
       original: room_g4,
       thumbnail: room_g4,
@@ -97,6 +95,10 @@ const Ganga = () => {
     {
       original: room_b2,
       thumbnail: room_b2,
+    },
+    {
+      original: room_g1,
+      thumbnail: room_g1,
     },
   ];
   return (
