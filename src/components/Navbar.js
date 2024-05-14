@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaAlignRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -24,12 +24,13 @@ if(menuRef.current && !menuRef.current.contains(e.target)){
       document.removeEventListener('mousedown', handleOutsideClick);
     };
   }, []);
+
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <div className="nav-header">
-          <Link to="/">      <h3 className="small-logo" style={{color:"",fontWeight:'bold'}}> <span style={{fontWeight:"lighter"}}>| </span>T <span style={{fontWeight:"lighter"}}>| </span>S <span style={{fontWeight:"lighter"}}>| </span>B <span style={{fontWeight:"lighter"}}>| </span></h3>
-</Link>
+        <div className="nav-header" >
+         <span onClick={()=>window.location.reload()}><Link to="/">      <h3 className="small-logo" style={{color:"",fontWeight:'bold'}}> <span style={{fontWeight:"lighter"}}>| </span>T <span style={{fontWeight:"lighter"}}>| </span>S <span style={{fontWeight:"lighter"}}>| </span>B <span style={{fontWeight:"lighter"}}>| </span></h3>
+</Link></span> 
           <button type="button" className="nav-btn" onClick={handleToggle}>
             <FaAlignRight className="nav-icon" />
           </button>
